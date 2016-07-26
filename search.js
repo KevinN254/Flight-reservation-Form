@@ -1,6 +1,4 @@
-$(document).ready(function()
-{	
-    $('#oneWay').change(function()
+$('#oneWay').change(function()
     {
         $('#returnDate').hide(); 
     });
@@ -10,6 +8,9 @@ $(document).ready(function()
         $('#returnDate').show(); 
 
     });
+$(document).ready(function()
+{	
+    
 
     //when the Search btn is clicked
 	$('#search').click(function()

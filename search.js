@@ -1,13 +1,18 @@
-$('#oneWay').change(function()
-    {
-        $('#returnDate').hide(); 
-    });
+function roundTripChange(){
 
-    $('#roundTrip').change(function()
+    if (document.getElementById('roundTrip').checked === true)
     {
         $('#returnDate').show(); 
+    }
+  }
 
-    });
+   function oneWayChange(){
+
+    if(document.getElementById('oneWay').checked === true)
+    {
+        $('#returnDate').hide(); 
+    }
+  }
 $(document).ready(function()
 {	
     
